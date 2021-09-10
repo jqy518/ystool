@@ -1,4 +1,4 @@
-const {toSvn } = require('./svn/index')
+const { Svn } = require('./svn/index')
 module.exports = [
-  toSvn
+   Svn
 ]

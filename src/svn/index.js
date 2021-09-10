@@ -73,7 +73,7 @@ function inputPath () {
 
 
 
-exports.toSvn = function() {
+exports.Svn = function() {
   const tosvn = new commander.Command('svn') //定义一个子命令
   .version('1.0.0')
   .option('-h, --home', '是否把SVN配置写入用户HOME目录')
@@ -90,7 +90,7 @@ exports.toSvn = function() {
   })
   .addHelpText('after',`
    使用例子：
-    tosvn c:\\svnproject\\myprojectdist -h
+    svn c:\\svnproject\\myprojectdist -h
   `)
   return tosvn
 }

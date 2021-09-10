@@ -1,9 +1,11 @@
 {
-  "name": "ystool",
+  "name": "@jqy518/ystool",
   "version": "1.0.0",
   "description": "youngsun tools",
   "main": "index.js",
-  "bin":"./bin/index.js",
+  "bin": {
+    "ystool": "./bin/index.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -17,7 +19,6 @@
     "chalk": "^4.1.2",
     "commander": "^8.1.0",
     "fs-extra": "^10.0.0",
-    "inquirer": "^8.1.2",
-    "yscmd": "^1.0.0"
+    "inquirer": "^8.1.2"
   }
 }
